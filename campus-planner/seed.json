@@ -1,0 +1,12 @@
+[
+  {"id":"txn_1","title":"Study session CS101","duration":90,"tag":"Study","dueDate":"2025-09-25","createdAt":"2025-09-10T10:00:00.000Z","updatedAt":"2025-09-10T10:00:00.000Z"},
+  {"id":"txn_2","title":"Group project meeting","duration":120,"tag":"Project","dueDate":"2025-09-26","createdAt":"2025-09-11T10:00:00.000Z","updatedAt":"2025-09-11T10:00:00.000Z"},
+  {"id":"txn_3","title":"Physics lab prep","duration":60,"tag":"Lab","dueDate":"2025-09-24","createdAt":"2025-09-12T10:00:00.000Z","updatedAt":"2025-09-12T10:00:00.000Z"},
+  {"id":"txn_4","title":"Coffee with mentor","duration":45,"tag":"Mentor","dueDate":"2025-09-23","createdAt":"2025-09-13T10:00:00.000Z","updatedAt":"2025-09-13T10:00:00.000Z"},
+  {"id":"txn_5","title":"Library research","duration":150,"tag":"Study","dueDate":"2025-09-22","createdAt":"2025-09-14T10:00:00.000Z","updatedAt":"2025-09-14T10:00:00.000Z"},
+  {"id":"txn_6","title":"Basketball practice","duration":90,"tag":"Club","dueDate":"2025-09-21","createdAt":"2025-09-15T10:00:00.000Z","updatedAt":"2025-09-15T10:00:00.000Z"},
+  {"id":"txn_7","title":"Part-time shift","duration":240,"tag":"Work","dueDate":"2025-09-20","createdAt":"2025-09-16T10:00:00.000Z","updatedAt":"2025-09-16T10:00:00.000Z"},
+  {"id":"txn_8","title":"Seminar: AI Ethics","duration":60,"tag":"Seminar","dueDate":"2025-09-27","createdAt":"2025-09-17T10:00:00.000Z","updatedAt":"2025-09-17T10:00:00.000Z"},
+  {"id":"txn_9","title":"Volunteer fair","duration":120,"tag":"Volunteer","dueDate":"2025-09-19","createdAt":"2025-09-18T10:00:00.000Z","updatedAt":"2025-09-18T10:00:00.000Z"},
+  {"id":"txn_10","title":"Exam revision","duration":180,"tag":"Study","dueDate":"2025-09-28","createdAt":"2025-09-19T10:00:00.000Z","updatedAt":"2025-09-19T10:00:00.000Z"}
+]

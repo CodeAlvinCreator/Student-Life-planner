@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Campus Life Planner</title>
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" role="banner">
+    <div class="container nav-row">
+      <h1>Campus Life Planner</h1>
+      <nav aria-label="Primary" class="site-nav">
+        <ul>
+          <li><a href="index.html" aria-current="page">Dashboard</a></li>
+          <li><a href="records.html">Records</a></li>
+          <li><a href="view-records.html">View Records</a></li>
+          <li><a href="settings.html">Settings</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container" role="main">
+    <section class="dashboard" aria-labelledby="dash-heading">
+      <h2 id="dash-heading">Dashboard</h2>
+      <p id="welcome">Welcome, <strong id="student-name">Student</strong> 👋</p>
+      <div class="stats-grid" role="region" aria-live="polite">
+        <div class="stat"><span id="stat-total">0</span><small>Total tasks</small></div>
+        <div class="stat"><span id="stat-completed">0</span><small>Completed</small></div>
+        <div class="stat"><span id="stat-upcoming">0</span><small>Upcoming</small></div>
+        <div class="stat" aria-describedby="trend-desc">
+          <span id="stat-trend">—</span>
+          <small id="trend-desc">Last 7 days</small>
+        </div>
+      </div>
+      <div class="progress-wrap">
+        <label for="goal-progress">Goals Progress</label>
+        <div class="progress"><div id="goal-progress" class="bar" style="width:0%"></div></div>
+      </div>
+      <div id="cap-status" class="visually-hidden" role="status" aria-live="polite"></div>
+    </section>
+
+    <section class="upcoming" aria-labelledby="upcoming-heading">
+      <h2 id="upcoming-heading">Upcoming Tasks</h2>
+      <ul id="upcoming-list" class="cards" aria-label="Next 5 tasks"></ul>
+    </section>
+  </main>
+
+  <a class="fab" id="fab-dash" href="records.html" aria-label="Add Task">+</a>
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Campus Life Planner</p>
+    </div>
+  </footer>
+
+  <script type="module" src="scripts/dashboard.js"></script>
+</body>
+</html>
