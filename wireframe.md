@@ -53,5 +53,4 @@ flowchart TD
   AB[About Section]
   F[Footer]
 
-  H --> N --> U --> T --> AB --> F
-```
+  
